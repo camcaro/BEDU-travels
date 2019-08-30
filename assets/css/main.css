@@ -1,0 +1,56 @@
+/* Etiquetas */
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    display: block;
+    background: rgb(45, 45, 45);
+    height: 150px;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+h1{
+    display: inline-block;
+    background: black;
+    width: 200px;
+}
+
+nav{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+}
+
+ul{
+    display: block;
+    /* float: right; */
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+li a:enabled{
+    background-color: brown;
+}
+
+li a:hover{
+    background: blueviolet;
+    color: greenyellow;
+}
+/* Clases */
+
+
+/* Id's */
+#Login{
+    background: lightblue;
+}
