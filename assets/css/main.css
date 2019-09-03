@@ -6,51 +6,68 @@ body{
 }
 
 header{
-    display: block;
+    display: flex;
     background: rgb(45, 45, 45);
-    height: 150px;
+    height: 75px;
     color: white;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a{
     color: white;
+    width: 150px;
 }
 
 h1{
-    display: inline-block;
+    display: inherit;
     background: black;
-    width: 200px;
+    /* width: 200px; */
+    height: 80%;
+    margin: 0;
+    align-items: center;
+}
+
+h1 img{
+    height: inherit;
 }
 
 nav{
-    display: inline-block;
-    position: relative;
-    left: 500px;
+    display: inherit;
 }
 
 ul{
-    display: block;
-    /* float: right; */
+    display: inherit;
+    margin: 0;
+    padding-inline-start: 0px;
 }
 
 li{
-    display: inline-block;
+    display: inherit;
     width: 150px;
-    height: 150px;
 }
 
-li a:enabled{
-    background-color: brown;
+li a{
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 75px;
 }
+
+/* li a:enabled{
+    background-color: brown;
+} */
 
 li a:hover{
-    background: blueviolet;
-    color: greenyellow;
+    background: lightblue;
+    color: black;
 }
 /* Clases */
 
 
 /* Id's */
 #Login{
-    background: lightblue;
+    /* background: lightblue; */
 }
